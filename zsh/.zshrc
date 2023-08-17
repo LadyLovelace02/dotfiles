@@ -1,5 +1,5 @@
 # basic info output on terminal open
-#pfetch
+#draw a random pokemon sprite on opening a new session
 pokemon-colorscripts -r --no-title
 
 # allow for vim functionalities
@@ -20,7 +20,6 @@ _comp_options+=(globdots)   # includes hidden files
 eval "$(starship init zsh)"
 
 #aliases 
-alias frink='open vnc://192.168.1.2'
 alias icloud='cd /Users/melissa/Library/Mobile\ Documents/com~apple~CloudDocs/'
 alias l='ls -lah'
 alias la='ls -aG'
